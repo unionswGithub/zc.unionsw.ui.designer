@@ -5,3 +5,4 @@ lz 1time
 
 wsq 1time
 
+lz 2time
