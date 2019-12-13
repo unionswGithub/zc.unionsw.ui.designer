@@ -371,6 +371,16 @@ function Constant(){
                     name:"条形图",
                     icon:"assets/drag/img/left/other1.png",
                     html:"<div class='echarts-bar' style='height:400px;'></div>"
+                },
+                {
+                    name:"折线图",
+                    icon:"assets/drag/img/left/other1.png",
+                    html:"<div class='echarts-line' style='height:400px;'></div>"
+                },
+                {
+                    name:"饼图",
+                    icon:"assets/drag/img/left/other1.png",
+                    html:"<div class='echarts-pie' style='height:400px;'></div>"
                 }
             ]
         },{
@@ -450,13 +460,14 @@ function Constant(){
         "el-divider":       {name:"分割线",dragInto:false,  duplicate:true,   copy:true,      paste:false,  canDelete:true},
         "hr":               {name:"分割线",dragInto:false,  duplicate:true,   copy:true,      paste:false,  canDelete:true},
 
-
         /*样式*/
         "root":{name:"Root",dragInto:true,duplicate:false, copy:false,      paste:true,    canDelete:false},
         "magical-coder-tmp":{name:"临时包裹",dragInto:false,duplicate:true, copy:true,      paste:false,    canDelete:true},
         "magical-drag-tmp-submenu-name":{name:"子菜单名称",dragInto:false,duplicate:false, copy:false,      paste:false,    canDelete:false},
         /*echarts*/
         "echarts-bar":{name:"条形图",dragInto:false,duplicate:true, copy:true,      paste:false,    canDelete:true},
+        "echarts-line":{name:"折线图",dragInto:false,duplicate:true, copy:true,      paste:false,    canDelete:true},
+        "echarts-pie":{name:"饼图",dragInto:false,duplicate:true, copy:true,      paste:false,    canDelete:true},
         "i":{primary:0,name:"图标",   dragInto:false, duplicate:true,duplicateAttr:[],         copy:true,      paste:false,    canDelete:true     },
         "p":    {name:"段落",dragInto:false,  duplicate:true,duplicateAttr:[],   copy:true,      paste:true,  canDelete:true    },
         "small":  {name:"小字",dragInto:false,  duplicate:true,duplicateAttr:[],   copy:true,      paste:true,  canDelete:true    },
@@ -847,6 +858,7 @@ function Constant(){
                         {type:this.type.TEXT      ,clearAttr:true     ,oneLine:false     ,change:this.change.ATTR    ,title:'图标样式'    ,attrName:'icon',extendKey:"icon",extend:true},
                         {type:this.type.SELECT          ,clearAttr:true     ,oneLine:false     ,change:this.change.ATTR     ,title:'设置当前步骤的状态'    ,tooltip:'设置当前步骤的状态'    ,attrName:'status'    ,options:[{"wait":"等待"},{"process":"处理中"},{"finish":"完成"},{"error":"错误"},{"success":"成功"}]},
                     ],
+                    
                     "el-collapse":[
                         {type:this.type.CHECKBOX        ,clearAttr:true     ,oneLine:true     ,change:this.change.ATTR     ,title:'状态'    ,options:[{"c":true,"n":"accordion","t":"手风琴","u":false}]},
                     ],
