@@ -497,3 +497,4 @@
 127.0.0.1 - - [10/Dec/2019:13:49:45 +0800] "GET /assets/drag/ui/layui/2.5.4/font/iconfont.woff2?v=250 HTTP/1.1" 200 23140 "http://localhost:12345/assets/drag/ui/layui/2.5.4/css/layui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 127.0.0.1 - - [10/Dec/2019:14:05:59 +0800] "GET /layui.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 127.0.0.1 - - [10/Dec/2019:14:05:59 +0800] "GET /iframe-layui-2.5.4.html HTTP/1.1" 304 0 "http://localhost:12345/layui.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [13/Jan/2020:13:36:00 +0800] "GET /layui.html HTTP/1.1" 200 56481 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
